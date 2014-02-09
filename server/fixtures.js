@@ -5,13 +5,13 @@ if (Posts.find().count() === 0) {
     url: 'http://sachagreif.com/introducing-telescope/'
   });
 
-  Posts.inert({
+  Posts.insert({
     title: 'Meteor',
     author: 'Tom Coleman',
     url: 'http://meteor.com'
   });
 
-  Posts.inert({
+  Posts.insert({
     title: 'The Meteor Book',
     author: 'Tom Coleman',
     url: 'http://themeteorbook.com'
